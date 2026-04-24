@@ -28,7 +28,7 @@ A solução engloba desde a limpeza e exploração dos dados (EDA) até o treina
 ## 🔧 Como Rodar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Joaodanieljr/fiap-ds-ia-tech-challenge-1.git](https://github.com/Joaodanieljr/fiap-ds-ia-tech-challenge-1.git)
+   git clone https://github.com/Joaodanieljr/fiap-ds-ia-tech-challenge-1.git
    ```
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
