@@ -47,11 +47,11 @@ A solução engloba desde a limpeza e exploração dos dados (EDA) até o treina
    jupyter notebook
    ```
 
-## ✒️ Autor
-- Eduardo Vicente
-- João Daniel 
-- Samara Siqueira
-- Vinicius Moreira
+ ## ✒️ Autores
+   - Eduardo Vicente
+   - João Daniel 
+   - Samara Siqueira
+   - Vinicius Moreira
       
       
     
