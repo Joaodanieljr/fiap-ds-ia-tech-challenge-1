@@ -123,12 +123,39 @@ A avaliação teve como objetivo o entendimento dos dados, identificação de ev
 
 # 8	Modelagem
 A partir da Análise Exploratória dos Dados, vamos partir para a elaboração de modelo que tenha como objetivo a utilização pela empresa nas análises e ações futuras.
+Foram avaliadas as abordagens de modelo de regressão e modelo de classificação.
+Vamos partir da premissa que temos uma **variável Target nps_score** (detalhes no item 6.2.1). Neste cenário, estamos tratando de **técnica supervisionada** de modelagem e a abordagem pode ser de acordo com as possibilidades de classificação da variável target :
+- **Quantitativa (Numérica) Discreta**, no formato que assume notas de 0 a 10 (contagem que assume valor inteiro) permite abordagem de **modelo de regressão supervisionada**, no qual o modelo busca estimar o valor da nota.
+- **Qualitativa (Categórica) Ordinal**, no formato de ordenadas Detratores, Neutros e Promotores Representam uma hierarquia de satisfação. Permite abordagem de **modelo de classificação multiclasse**. Alternativamente pode ser reestruturada como problema binário.
+Neste trabalho, será adotada inicialmente a abordagem de regressão como baseline, sendo que abordagens de classificação podem ser desenvolvidas posteriormente. 
 
-# 9	Resultados
+# 9	Estrutura
+Segue estrutura recomendada.
+Neste trabalho, definimos a estrutura somente com as pastas que contêm informação. Em fases futuras de desenvolvimento do projeto, a referência a seguir pode ser utilizada.
 
+projeto
+├── README.md
+├── requirements.txt        # ou environment.yml
+├──.gitignore
+├── data
+│   ├── raw
+│   ├── processed
+├── notebooks
+├── src
+├── tests
+├── docs
 
+- README.md: arquivo de referência do projeto com visão geral, instruções de uso e execução
+- requirements.txt: lista de dependências necessárias para execução do projeto
+- .gitignore : define arquivos a serem ignorados pelo Git.
+- data/raw/: dados originais
+- data/processed/: dados tratados (preparados para análise e modelagem)
+- notebooks/: notebooks para exploração, análise e experimentação dos dados
+- src/: código-fonte associado ao processamento de dados e preparação de features
+- tests/: testes automatizados para validação de código e regras de processamento
+- docs/: documentação do projeto
 
 # 10 Considerações Finais
-
+O projeto Tech Challenge – Case NPS Preditivo, desenvolvido como entrega final da Fase 1 da Pós Tech em Data Science (AI Scientist) — FIAP, consolida um fluxo de análise de dados até a construção de um modelo preditivo. A análise exploratória estruturou e validou os dados, gerando insumos para modelagem.
 
 
