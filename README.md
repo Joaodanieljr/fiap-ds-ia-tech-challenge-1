@@ -24,6 +24,7 @@ A solução engloba desde a limpeza e exploração dos dados (EDA) até o treina
 - `notebooks/`: Contém os arquivos `.ipynb` com a análise completa.
 - `data/`: Base de dados utilizada no desafio.
 - `requirements.txt`: Lista de dependências do projeto.
+- `docs/`: Contem a documentação do projeto.
 
 ## Como Rodar o Projeto
 1. Clone este repositório:
