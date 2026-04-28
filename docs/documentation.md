@@ -133,17 +133,17 @@ Neste trabalho, será adotada inicialmente a abordagem de regressão como baseli
 Segue estrutura recomendada.
 Neste trabalho, definimos a estrutura somente com as pastas que contêm informação. Em fases futuras de desenvolvimento do projeto, a referência a seguir pode ser utilizada.
 ```
-projeto
+projeto/
 ├── README.md
 ├── requirements.txt        # ou environment.yml
 ├──.gitignore
-├── data
-│   ├── raw
-│   ├── processed
-├── notebooks
-├── src
-├── tests
-├── docs
+├── data/
+│   ├── raw/
+│   ├── processed/
+├── notebooks/
+├── src/
+├── tests/
+├── docs/
 ```
 - README.md: arquivo de referência do projeto com visão geral, instruções de uso e execução
 - requirements.txt: lista de dependências necessárias para execução do projeto
