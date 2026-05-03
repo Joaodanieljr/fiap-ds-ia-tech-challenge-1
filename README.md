@@ -25,6 +25,8 @@ A solução engloba desde a limpeza e exploração dos dados (EDA) até o treina
 - `data/`: Base de dados utilizada no desafio.
 - `requirements.txt`: Lista de dependências do projeto.
 - `docs/`: Contem a documentação do projeto.
+- `video`: Apresentacao em video no formato .MP4 do projeto para os stakeholders. 
+- `apresentacao/`: Arquivo de apresentacao no formato .pptx, com o storytelling e informações essenciais transmitidas aos stakeholders.
 
 ## Como Rodar o Projeto
 1. Clone este repositório:
